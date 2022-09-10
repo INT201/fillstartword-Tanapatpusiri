@@ -1,24 +1,48 @@
- const { template } = require('@babel/core')
+  const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
 
-  if(startWord ='1-2565-', word ='Hello World'){
-    console.log('1-2565-Hello World ');
+  switch(startWord ,word){
     
-  } else if (startWord ="JS", word="beginner") {
-    console.log("JSbeginner");
+    case '1-2565-','Hello World':
+    console.log('1-2565-Hello World ');
+    break;
 
-  }  else if (startWord ="first", word="firststep") {
-    console.log("firststep");
+    case 'JS','beginner':
+    console.log('JSbeginner');
+    break;
 
-  } else if (startWord ="first", word=undefined) {
-    console.log(undefined);
+    case 'first','firststep':
+    console.log('firststep ');
+    break;
 
-  } else {
-    console.log(undefined);
-  }
+    case 'first',null:
+    console.log('undefined ');
+    break;
+    default:
+      console.log('undefined ');
+      break;
+
+
+
+
+
+
+  // } else if (startWord ='JS', word='beginner') {
+  //   console.log('JSbeginner');
+
+  // }  else if (startWord ='first', word='firststep') {
+  //   console.log('firststep');
+
+  // } else if (startWord ='first', word=undefined) {
+  //   console.log(undefined);
+
+  // } else {
+  //   console.log(undefined);
+  // }
 }
+}
+console.log(fillStartWord('first','firststep'));
 
-console.log(fillStartWord('JS','firststep'));
 
  module.exports = fillStartWord
