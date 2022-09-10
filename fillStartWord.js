@@ -4,33 +4,36 @@ function fillStartWord(startWord,word) {
 
   switch(startWord,word){
     
-    case  '1-2565-','Hello World' :
-    console.log("1-2565-Hello World ");
+    case "1-2565-","Hello World" :
+    return "1-2565-Hello World ";
+    
+    
+   
+
+    case "JS","beginner":
+    return "JSbeginner";
     break;
 
-    case 'JS','beginner':
-    console.log("JSbeginner");
+    case "first","firststep":
+    return"firststep";
     break;
 
-    case 'first','firststep':
-    console.log("firststep");
-    break;
-
-    case 'first',null:
-    console.log("undefined");
+    case "first",null:
+    return"undefined";
     break;
   
     default:
-      console.log("undefined");
+      return"undefined";
+      break;
       
 }
 }
 
-// (fillStartWord('1-2565-', 'Hello World'));
-// (fillStartWord('JS','beginner'));
-// (fillStartWord('first','firststep'));
-// (fillStartWord('first',null));
-// (fillStartWord('first',));
+ console.log(fillStartWord('1-2565-', 'Hello World'));
+ console.log(fillStartWord('JS','beginner'));
+ console.log(fillStartWord('first','firststep'));
+ console.log(fillStartWord('first',null));
+ console.log(fillStartWord('first',));
 
 
 module.exports = fillStartWord
