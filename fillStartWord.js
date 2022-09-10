@@ -1,10 +1,10 @@
-  const { template } = require('@babel/core')
+ // const { template } = require('@babel/core')
 
 function fillStartWord(startWord,word) {
 
   switch(startWord,word){
     
-    case '1-2565-','Hello World':
+    case  '1-2565-','Hello World' :
     console.log('1-2565-Hello World ');
     break;
 
@@ -25,11 +25,12 @@ function fillStartWord(startWord,word) {
       
 }
 }
- console.log(fillStartWord("1-2565-","Hello World"));
- console.log(fillStartWord('JS','beginner'));
- console.log(fillStartWord('first','firststep'));
- console.log(fillStartWord('first',null));
- console.log(fillStartWord('first',));
+
+(fillStartWord('1-2565-','Hello World'));
+(fillStartWord('JS','beginner'));
+(fillStartWord('first','firststep'));
+(fillStartWord('first',null));
+(fillStartWord('first',));
 
 
- module.exports = fillStartWord
+// module.exports = fillStartWord
