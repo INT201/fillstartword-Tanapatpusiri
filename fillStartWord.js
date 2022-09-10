@@ -26,11 +26,11 @@ function fillStartWord(startWord,word) {
 }
 }
 
-(fillStartWord('1-2565-', 'Hello World'));
-(fillStartWord('JS','beginner'));
-(fillStartWord('first','firststep'));
-(fillStartWord('first',null));
-(fillStartWord('first',));
+// (fillStartWord('1-2565-', 'Hello World'));
+// (fillStartWord('JS','beginner'));
+// (fillStartWord('first','firststep'));
+// (fillStartWord('first',null));
+// (fillStartWord('first',));
 
 
 module.exports = fillStartWord
