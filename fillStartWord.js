@@ -1,4 +1,4 @@
-  const { template } = require('@babel/core')
+ // const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
 
@@ -17,32 +17,14 @@ function fillStartWord(startWord, word) {
     break;
 
     case 'first',null:
-    console.log('undefined ');
+    console.log('undefined');
     break;
     default:
-      console.log('undefined ');
+      console.log('undefined');
       break;
-
-
-
-
-
-
-  // } else if (startWord ='JS', word='beginner') {
-  //   console.log('JSbeginner');
-
-  // }  else if (startWord ='first', word='firststep') {
-  //   console.log('firststep');
-
-  // } else if (startWord ='first', word=undefined) {
-  //   console.log(undefined);
-
-  // } else {
-  //   console.log(undefined);
-  // }
 }
 }
-console.log(fillStartWord('first','firststep'));
 
 
- module.exports = fillStartWord
+
+// module.exports = fillStartWord
