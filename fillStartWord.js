@@ -5,26 +5,23 @@ function fillStartWord(startWord,word) {
   switch(startWord,word){
     
     case "1-2565-","Hello World" :
-    return "1-2565-Hello World ";
+    return "1-2565-Hello World";
     
-    
-   
-
     case "JS","beginner":
     return "JSbeginner";
-    break;
+    
 
     case "first","firststep":
     return"firststep";
-    break;
+    
 
     case "first",null:
-    return"undefined";
-    break;
+    return undefined ;
+    
   
     default:
-      return"undefined";
-      break;
+      return undefined;
+      
       
 }
 }
